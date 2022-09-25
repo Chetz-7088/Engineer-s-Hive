@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+<link rel="stylesheet" href="home.css">
+    <title>Engineer's Hive</title>
+ 
+    <!-- <link rel="stylesheet" href="/css/home.css" /> -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Engineer's Hive</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MY WORKS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="MyGame.html">Guess the Colour</a></li>
+                  <li><a class="dropdown-item" href="myBlog.html">Relax Hub</a></li>
+                  <li><a class="dropdown-item" href="guardMe.html">Guarding point</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="songs.html">Songs of Gods</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid intro">
+       <div class="roww">
+         <div class="left">
+          <img src="https://i.stack.imgur.com/Oy096.png" alt="">
+          <div class="introtext">
+          <h2>Welcome Visitors!</h2>
+          <h3>I am Chaitanya Rustagi</h3>
+          <p>This page is doveloped by me</p>
+          <h4>Here are my works</h4>
+          <button onclick="showDetails()" class="btn btn-danger" id="btnn"type="button">Read More</button>
+          <div id="details">This page is doveloped by Mr. Chaitanya Rustagi in order to keep his work ordered at one place. You can explore through his works in MY WORKS section on the top or scroll down for the content. Happy scrolling!</div>
+         </div>
+         </div>
+         <div class="right">
+         <div class="img"><img src="controller.png" alt=""></div>
+         <div class="coloring"></div>
+       </div>
+      </div>
+    </header>
+    <main>
+      <h2 class="workhead center">My Works</h2>
+      <div class="works">
+        <a href="MyGame.html" class="work" target="_blank"
+          ><img
+            src="guesscolor.png"
+            alt=""
+          />
+          <h3>Guess The Colour</h3></a
+        >
+        <a href="myBlog.html" class="work" target="_blank"
+          ><img
+            src="https://images.indulgexpress.com/uploads/user/imagelibrary/2017/8/15/original/binge-watching-.jpg"
+            alt=""
+          />
+          <h3>Relax Hub</h3></a
+        >
+        <a href="guardMe.html" class="work" target="_blank"
+          ><img
+            src="https://lh3.googleusercontent.com/-VpmAA_MVnS0/AAAAAAAAAAI/AAAAAAAAAKk/ETGgf_erxbE/s640/photo.jpg"
+            alt=""
+          />
+          <h3>Guarding point</h3></a
+        >
+        <a href="songs.html" class="work" 
+          ><img
+            src="songs.png"
+            alt=""
+          />
+          <h3>Songs of Gods</h3></a
+        >
+      </div>
+    </main>
+    <footer>
+      <div class="contactInfo">
+        <h4>Connect With Me</h4>
+        <ul>
+          <!-- <li>
+            <a href="https://www.facebook.com/profile.php?id=100029222362199"
+              ><img src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" alt=""></a>
+          </li> -->
+          <li>
+            <a href="https://www.instagram.com/chaitanya_rustagi_1503/"
+              ><img src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://github.com/Chetz-7088"><img src="https://cdn-icons-png.flaticon.com/128/270/270798.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/chaitanya-rustagi-04653821b/"><img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt=""></i></a>
+          </li>
+          <li>
+            <a href=""><img src="https://cdn-icons.flaticon.com/png/128/2504/premium/2504839.png?token=exp=1650215596~hmac=ed764b7ed3334db7805735e2f7e32bbd" alt=""></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function showDetails(){
+        var btnn = document.getElementById('btnn');
+        var details = document.getElementById('details');
+        if(details.style.display == 'none')
+           { details.style.display ='block';
+           btnn.innerHTML="Hide Details"
+          }
+        else
+          {
+            details.style.display ='none';
+           btnn.innerHTML="Read More"
+          }
+      }
+      // function showDetails(){
+        
+      // }
+    </script>
+     
+
+  
+  </body>
+</html>

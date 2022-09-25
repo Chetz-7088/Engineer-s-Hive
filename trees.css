@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 3% 8% 3% 8%;
+}
+.row1{
+    height: 80vh;  
+}
+
+.row1 .col-4{
+    background-image: url(https://images.pexels.com/photos/1459497/pexels-photo-1459497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.row1 .col-5 .row{
+    height: 50%;
+}
+.row1 .col-5 .row11{
+    background-image: url(https://images.pexels.com/photos/1146706/pexels-photo-1146706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.row1 .col-5 .row12{
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg);
+    background-size: cover;
+}
+
+.row1 .col-3{
+    background-image: url(https://images.pexels.com/photos/1576955/pexels-photo-1576955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.row2{
+height: 40vh;
+}
+.row2 .col-4 {
+   
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/301409/pexels-photo-301409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+}
+.row2 .col-8{
+    background-image: url(https://images.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+
+}
+
+
